@@ -1,4 +1,4 @@
-# Creating a New Repository
+# Managing Repositories
 First, start by creating a new repository on https://github.com.  Once it's created the files it generated will need to be brought down to your local workspace.  You will need to clone the repository.  
 **Important - Run the command below in the c:\gitRepo directory since it will create the folder.**
 ```
@@ -26,3 +26,9 @@ If you want to update the code again later, run git pull:
 $ git pull
 Already up-to-date.
 ```
+Use the `.gitignore` file to add folders or files you want excluded from being uploaded to the repository.  
+```
+exclude_dir/
+excludefile.exe
+```
+# Cheking-in
